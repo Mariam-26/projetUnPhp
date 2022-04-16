@@ -1,0 +1,189 @@
+/* STYLE général */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    transition: all ease-in-out 1s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(../concrete-texture.png);
+}
+
+
+/* FIN STYLE général */
+
+
+/* STYLE pour HEADER */
+
+.navbar-brand img {
+    max-height: 32px;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #002754 !important;
+}
+
+h1:hover {
+    color: #d4af95 !important;
+}
+
+.menu {
+    font-size: 1.5rem;
+}
+
+.menu ul li a {
+    margin-right: 40px;
+    color: #002754!important;
+}
+
+.menu ul li a:hover {
+    color: #d4af95 !important;
+}
+
+header .row {
+    background-image: url(../projet1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 70vh;
+    clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 90%);
+}
+
+header .formtransparente {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 70vh;
+}
+
+
+/* FIN STYLE pour HEADER */
+
+
+/* STYLE MAIN */
+
+main h2 {
+    margin-bottom: 50px;
+    color: #002754 !important;
+    font-weight: 900;
+}
+
+.menu:hover {
+    color: #d4af95;
+}
+
+#presentation .media {
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    background-color: #d4af95;
+}
+
+#presentation .media:hover {
+    background-color: #77787a;
+}
+
+.colonne1 {
+    box-shadow: 4px 0 5px rgba(128, 128, 128, 0.5);
+}
+
+.colonne1 p {
+    margin: 60px;
+}
+
+.readMore {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.connectées {
+    min-height: calc(100vh - 50px);
+    background-image: url(../woman.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.avisPolitic {
+    min-height: calc(100vh - 50px);
+    background-color: #d3dae4;
+}
+
+.avisPolitic span {
+    font-size: 5rem;
+    color: #00a590;
+}
+
+.avisPolitic h5 {
+    font-size: 2rem;
+    color: #888;
+}
+
+.contact {
+    background-image: url(../hackeuses.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: calc(100vh - 50px);
+}
+
+.formContact {
+    background-color: rgba(255, 255, 255, .7);
+    padding: 2rem 1rem;
+}
+
+.contact .row {
+    min-height: calc(100vh - 50px);
+}
+
+.message {
+    resize: none !important;
+}
+
+
+/* FIN STYLE MAIN */
+
+
+/* STYLE FOOTER */
+
+footer {
+    background-color: rgba(0, 0, 0, .8);
+    color: #999;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer a {
+    color: #999;
+    font-size: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color: #3fa9d9;
+}
+
+.fa-twitter {
+    color: #007cba;
+}
+
+.fa-youtube {
+    color: #f00;
+}
+
+
+/* FIN STYLE FOOTER */
